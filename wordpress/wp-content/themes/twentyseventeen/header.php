@@ -17,8 +17,12 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="mijavascript.js"></script>
 <link rel="profile" href="http://gmpg.org/xfn/11">
-
+<script
+			 src="http://code.jquery.com/jquery-3.2.1.js"
+			 integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			 crossorigin="anonymous"></script>
 <?php wp_head(); ?>
 </head>
 
