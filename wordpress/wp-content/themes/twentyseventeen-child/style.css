@@ -38,7 +38,7 @@ justify-content: space-between;
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+
   position: relative;
   margin: auto;
 }
@@ -149,7 +149,26 @@ justify-content: space-between;
     right: 10px;
     bottom: 10px;
 }
+#primerSlide { display: block;}
+/*MODIFICACIONES JUAN */
+/*modifico el comportamiento del tema padre para poder extender las imágenes
+por toda la pantalla*/
+div#primary {
 
+  max-width: 100% !important;
+
+
+}
+.imagenesExtendidas {
+width: 100%;
+height: inherit;
+height: 350px;
+}
+.wrap { max-width: 100%; border: solid; margin-left: inherit; padding-left: inherit;
+    padding-right: inherit;
+}} /*Todo el contenido creado se extiende un 100%
+y se acopla a la izquierda*/
+/* FIN MODIFICACIONES JUAN */
 @media screen and (max-width: 600px) {
 .site-title { font-size: 1.7em; }
 header.entry-header { margin-top: auto;}
