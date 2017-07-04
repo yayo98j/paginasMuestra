@@ -1,16 +1,16 @@
-ï»¿/*
+/*
 Theme Name: Twenty Seventeen tema hijo
 Theme URI: https://juandavidarce.neocities.org/
 Author: Juan David Tabares Arce
 Author URI: https://juandavidarce.neocities.org/
 Template: twentyseventeen
-Description: Tema hijo de twenty seventeen diseï¿½ado por Juan David Tabares Arce.
+Description: Tema hijo de twenty seventeen dise ado por Juan David Tabares Arce.
 Version: 1.0
 License: TODOS LOS DERECHOS RESERVADOS. PROHIBIDO COPIAR ESTE CONTENIDO.
 Text Domain: twentyseventeen-child
 Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 
-Para mï¿½s informaciï¿½n contactar al e-mail juandavidtabaresarce@gmail.com
+Para m s informaci n contactar al e-mail juandavidtabaresarce@gmail.com
 */
 
 @import url("../twentyseventeen/style.css");
@@ -151,7 +151,7 @@ justify-content: space-between;
 }
 #primerSlide { display: block;}
 /*MODIFICACIONES JUAN */
-/*modifico el comportamiento del tema padre para poder extender las imÃ¡genes
+/*modifico el comportamiento del tema padre para poder extender las imágenes
 por toda la pantalla*/
 div#primary {
 
@@ -168,12 +168,28 @@ height: 350px;
     padding-right: inherit;
 }} /*Todo el contenido creado se extiende un 100%
 y se acopla a la izquierda*/
+
+/*Centrando puntos del slideshow*/
+.puntos {
+
+display: none;
+justify-content: center;
+}
+
+/*Centrando el contenido del footer*/
+.site-footer .wrap {
+padding-left: 3em;
+padding-right: 3em;
+}
+
+}
+
 /* FIN MODIFICACIONES JUAN */
 @media screen and (max-width: 600px) {
 .site-title { font-size: 1.7em; }
 header.entry-header { margin-top: auto;}
 #gallery-1 { flex-direction: column;
 margin-top: 30px;  }
-.gallery-item { margin: auto; margin-top: 15px;} /* Centro los items de la galerÃ­a y los muevo 15 pixeles hacia abajo */
+.gallery-item { margin: auto; margin-top: 15px;} /* Centro los items de la galería y los muevo 15 pixeles hacia abajo */
 
 /* aria-describedby: gallery-1-54 */

@@ -4280,3 +4280,10 @@ object {
 		padding: 0;
 	}
 }
+
+
+.puntos { 
+display: flex;
+justify-content: center;
+  }
+

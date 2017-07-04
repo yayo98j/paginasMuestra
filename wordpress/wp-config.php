@@ -16,7 +16,7 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'autosdelujo');
+define('DB_NAME', 'tiendaVirtual');
 
 /** Tu nombre de usuario de MySQL */
 define('DB_USER', 'juandata');
